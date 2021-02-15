@@ -1,2 +1,4 @@
 github.com/zzossig/hugo-theme-zdoc v0.0.0-20201105143606-574f6c3d26d5 h1:XuMsjxqSH7mYDd4DTPzFgIpTqJVnaqUcR98JSQnoG8I=
 github.com/zzossig/hugo-theme-zdoc v0.0.0-20201105143606-574f6c3d26d5/go.mod h1:xfa8nOS5pqRSKDOAobCFuE6YDLmOmyOGiIDEUw/MS5M=
+github.com/zzossig/hugo-theme-zzo v0.0.0-20210102031155-438cc9561c5e h1:mpcpz9+3vYaTfosMGSP3S2p1Cmqe+DnusGwEXqq/R8c=
+github.com/zzossig/hugo-theme-zzo v0.0.0-20210102031155-438cc9561c5e/go.mod h1:2EWm/W7lxc7FNLLy9XfEuA+ofCPILQzeKFooJdpOCcM=

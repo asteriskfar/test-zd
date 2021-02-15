@@ -1,0 +1,91 @@
+
+
+nav.breadcrumb > ol > li:nth-child(2) > a {
+    color: #ff64fe;
+}
+
+nav.breadcrumb > ol > li:nth-child(3) > span {
+    color: #00BCD4;
+}
+
+.home__landing {
+    display: flex;
+    flex-direction: column;
+    z-index: 100;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+
+.home__landing--txt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home__landing  .home__landing--link {
+    z-index: 200;
+}
+
+.drawer {
+    z-index: 500;
+}
+
+main {
+    background-image:   radial-gradient(circle, rgba(0,0,0,0.4) 5%, rgba(0,0,0,0.6) 95%),
+                        url('/images/green-lights.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    }
+
+
+.header__wrapper.bgcolor__header {
+    background-image:   radial-gradient(circle, rgba(0,0,0,0.4) 5%, rgba(0,0,0,0.6) 95%),
+                            url('/images/mesh.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+img.navbar__logo {
+    height:30px;
+    width: auto;
+}
+
+.theme__dark #list-main {
+    // background-color:darkgrey
+}
+
+.list-section {
+    margin: 1rem;
+}
+
+
+@media only screen and (min-width: 601px) {
+    .hide-desktop {
+        display: none;
+    }
+
+    .show-desktop {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .hide-mobile {
+        display: none;
+    }
+    .show-mobile {
+        display: block;
+    }
+}
+
+/** Fixes overflow on firefox **/
+.search .input {
+    min-width: 0;
+}

@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Coustard&family=Nixie+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans:wght@300&display=swap');
+
+$title01: "Open Sans" ;
+$title02: "Roboto Condensed" ;
+$title03: "Raleway" ;
+$title04: "Assistant" ;
+$title05: "Lato" ;
+$title06: "Nixie One" ;
+$title07: "Anton" ;
+$title08: "Coustard" ;
+$title09: "Nixie One" ;
+$title10: "Coustard" ;
+$title11: "Open Sans" ;
+$title12: "Open Sans" ;
+
+$body01: "PT Sans" ;
+$body02: "Roboto Condensed" ;
+$body03: "Roboto Condensed" ;
+$body04: "Assistant" ;
+$body05: "Lato" ;
+$body06: "Nixie One" ;
+$body07: "Open Sans" ;
+$body08: "Nixie One" ;
+$body09: "Lato" ;
+$body10: "Open Sans" ;
+$body11: "Open Sans" ;
+$body12: "Open Sans" ;
+
+
+
+body {
+    font-family: $body01;
+    font-weight: 400;
+}
+
+.header__wrapper .title {
+    font-family: $title01;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 3pt;
+    
+}
+@media only screen and (max-width: 600px) {
+    .header__wrapper .title {
+        font-size: 2rem;
+        letter-spacing: 2pt;
+
+    }
+    .single__contents {
+        h1 {
+            font-size: 2rem;
+        }
+        h2 {
+            font-size: 1.8rem;
+        }
+        h3 {
+            font-size: 1.6rem;
+        }
+        
+        h4 {
+            font-size: 1.4rem;
+        }
+        
+        h5 {
+            font-size: 1.3rem;
+        }
+        
+        h6 {
+            font-size: 1.2rem;
+        }
+    }
+}
+
+.theme__dark .single__contents {
+    h1, h2, h3 {
+        font-family: $title01;
+        letter-spacing: 2pt;
+    }
+}

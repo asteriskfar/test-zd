@@ -2,7 +2,10 @@ baseURL = "https://fervent-blackwell-d718fc.netlify.app"
 languageCode = "en-us"
 title = "My New Hugo Site"
 
-theme = "github.com/zzossig/hugo-theme-zdoc"
+theme = [
+  "github.com/zzossig/hugo-theme-zdoc",
+  "github.com/zzossig/hugo-theme-zzo"
+]
 
 pygmentsCodefences = true
 pygmentsCodeFencesGuesSsyntax = false
