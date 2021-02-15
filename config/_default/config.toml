@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://fervent-blackwell-d718fc.netlify.app"
 languageCode = "en-us"
 title = "My New Hugo Site"
 
